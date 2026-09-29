@@ -1,7 +1,10 @@
+@import url("https://use.typekit.net/udo2nph.css");
+
 html {
 }
 
 body {
+    background-color: rgb(255, 232, 240);
 }
 
 ::selection {
@@ -17,27 +20,42 @@ select {
 }
 
 #content {
+    font-size: 20px;
 }
 
 h1 {
+    color: rgb(89, 145, 110);
+    text-align: center;
+    font-family: "chelsea-market-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1::first-letter {
+    
 }
 
 time {
 }
 
 p {
+    color: rgb(108, 179, 135);
+    line-height: 20px;
 }
 
 ol {
+    border: 3px dotted rgb(89, 145, 110);
+    line-height: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 li {
+    color:rgb(255, 232, 240);
 }
 
 li:hover {
+    color: rgb(242, 165, 212);
 }
 
 li::marker {
