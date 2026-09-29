@@ -1,8 +1,9 @@
 html {
 }
 
-body {
+body {background-color: rgb(231, 225, 187);
 }
+
 
 ::selection {
 }
@@ -19,7 +20,13 @@ select {
 #content {
 }
 
-h1 {
+h1 {text-align:center; 
+    color:#5a2a2f; 
+    font-family: sans-serif; 
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: dotted;
+    text-transform: capitalize;
 }
 
 h1::first-letter {
@@ -29,6 +36,11 @@ time {
 }
 
 p {
+  text-align:right; 
+    color:#5a2a2f; 
+    font-family: sans-serif; 
+    font-weight: 200;
+    font-size: 15px;
 }
 
 ol {
