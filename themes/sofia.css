@@ -1,7 +1,16 @@
+@import url("https://use.typekit.net/mpl3umm.css");
+
 html {
 }
 
+head {
+
+
+}
+
 body {
+    background-color: rgb(175, 170, 164);
+    margin: 100px;
 }
 
 ::selection {
@@ -20,6 +29,12 @@ select {
 }
 
 h1 {
+    font-family: "redaction-50", sans-serif;
+    
+font-weight: 700;
+font-style: italic;
+    letter-spacing: -2px;
+    font-size:35px;
 }
 
 h1::first-letter {
@@ -29,6 +44,9 @@ time {
 }
 
 p {
+    border-radius: 10px;
+    background-color: aquamarine;
+    padding: 50px;
 }
 
 ol {
