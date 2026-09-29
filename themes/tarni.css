@@ -1,25 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Sankofa+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap');
 html {
 }
 
 body {
+    background-color: rgb(96, 10, 75);
+    
 }
 
-::selection {
+::selection { 
 }
 
-#theme-switcher {
+#theme-switcher { 
+    font-family: "Sankofa Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: rgb(175, 243, 143);
 }
 
 label {
 }
 
 select {
+    font-family: "Sankofa Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color:rgb(96, 10, 75);
 }
 
 #content {
 }
 
 h1 {
+    font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: rgb(175, 243, 143);
+    letter-spacing: 2ch;
+    text-align: justify;
 }
 
 h1::first-letter {
@@ -29,21 +47,44 @@ time {
 }
 
 p {
+    margin-top: 5cap;
+    font-family: "Sankofa Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: rgb(175, 243, 143);
+    font-size: 40px;
+    line-height: 0.9;
+    word-spacing: 2ch;
+    text-align: right;
 }
 
 ol {
 }
 
 li {
+      font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+   color: rgb(175, 243, 143); 
+   font-size: 20px;
+    border-style: dotted;
+    border-color:rgb(103, 47, 90);
 }
 
 li:hover {
+    border-style: dashed;
+    border-color: antiquewhite;
+color:rgb(175, 243, 143);
 }
 
 li::marker {
 }
 
 strong {
+    font-family: "Sankofa Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
 }
 
 code {
@@ -53,6 +94,7 @@ a {
 }
 
 a:visited {
+    
 }
 
 a:hover {
