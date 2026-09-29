@@ -1,7 +1,14 @@
+
+
+
+@import url("https://use.typekit.net/cje1zps.css");
+
+
 html {
 }
 
 body {
+    background-color: pink;
 }
 
 ::selection {
@@ -17,6 +24,9 @@ select {
 }
 
 #content {
+    margin: 100px;
+    background-color: blue;
+    border-radius: 50%;
 }
 
 h1 {
@@ -29,6 +39,11 @@ time {
 }
 
 p {
+ font-family: "jacquarda-bastarda-9", sans-serif;
+font-weight: 400;
+font-style: normal;
+    color: red;
+    font-size: 24px;
 }
 
 ol {
@@ -38,6 +53,7 @@ li {
 }
 
 li:hover {
+    color: green;
 }
 
 li::marker {
