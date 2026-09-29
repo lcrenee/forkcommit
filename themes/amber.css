@@ -1,55 +1,85 @@
 html {
+
 }
 
 body {
+ background-color: #f1eee7;
+    color: #252525;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+
+    border: 4px double #252525;
 }
 
+
 ::selection {
+
 }
 
 #theme-switcher {
+
 }
 
 label {
 }
 
 select {
+       background-color: #f1eee7;
+    border: 1px solid #252525;
+    padding: 5px;
 }
+
 
 #content {
 }
 
 h1 {
+   font-size: 65px;
+    font-weight: normal;
+    letter-spacing: -3px;
+    margin-bottom: 40px;
 }
 
+
 h1::first-letter {
+
 }
 
 time {
 }
 
 p {
+      font-size: 16px;
+    line-height: 1.7;
 }
 
 ol {
+    font-size: 16px;
+    line-height: 2;
 }
 
 li {
+    padding-left: 15px;
+    margin-bottom: 8px;
 }
 
 li:hover {
 }
 
 li::marker {
+      color: #22444c;
+    font-size: 22px;
 }
 
 strong {
+     color: #22444c;
 }
 
 code {
 }
 
 a {
+    color: #22444c;
 }
 
 a:visited {
